@@ -1,0 +1,29 @@
+{
+  "name": "fastboot-gcloud-storage-notifier",
+  "version": "0.1.0",
+  "description": "A FastBoot App Server Notifier for gcloud Storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taras/fastboot-gcloud-storage-notifier.git"
+  },
+  "keywords": [
+    "ember",
+    "fastboot",
+    "downloader",
+    "gcloud",
+    "gcloud-storage"
+  ],
+  "author": "Taras Mankovski <tarasm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taras/fastboot-gcloud-storage-notifier/issues"
+  },
+  "homepage": "https://github.com/taras/fastboot-gcloud-storage-notifier#readme",
+  "dependencies": {
+    "gcloud": "0.32.0"
+  }
+}
