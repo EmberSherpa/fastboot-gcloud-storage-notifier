@@ -1,9 +1,5 @@
 "use strict";
 
-let gcloud = require('gcloud');
-
-let storage = gcloud.storage();
-
 const DEFAULT_POLL_TIME = 3 * 1000;
 
 class GCSNotifier {
@@ -22,6 +18,7 @@ class GCSNotifier {
   }
 
   getLastModified() {
+      let storage = require('@google-cloud/storage')();
       let file = storage.bucket(this.bucket).file(this.key);
       
       return new Promise(function(resolve, reject){

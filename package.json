@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/EmberSherpa/fastboot-gcloud-storage-notifier#readme",
   "dependencies": {
-    "gcloud": "0.32.0"
+    "@google-cloud/storage": "1.1.1"
   }
 }
