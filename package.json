@@ -1,6 +1,6 @@
 {
   "name": "fastboot-gcloud-storage-notifier",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A FastBoot App Server Notifier for gcloud Storage",
   "main": "index.js",
   "scripts": {
