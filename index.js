@@ -1,8 +1,8 @@
 "use strict";
 
-let gcloud = require('gcloud');
+const { Storage } = require('@google-cloud/storage');
 
-let storage = gcloud.storage();
+let storage = new Storage();
 
 const DEFAULT_POLL_TIME = 3 * 1000;
 
